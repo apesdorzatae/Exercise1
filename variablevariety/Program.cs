@@ -14,10 +14,10 @@ namespace variablevariety
             float tipeFloat = 10.5f;
             double tipeDouble = 10.75;
             string tipeString = "Sepuluh";
-            bool tipeBool = true;
+            bool tipeBoolean = true;
             char tipeCharacter = 'A';
 
-            Console.WriteLine("Tipe-Tipe Variable\n\nTipe Integer : {0}\nTipe Float : {1}\nTipe Double : {2}\nTipe String : {3}\nTipe Boolean : {4}\nTipe Character : {5}\n\n[All Done]", tipeInteger,tipeFloat,tipeDouble,tipeString,tipeBool,tipeCharacter);
+            Console.WriteLine($"Tipe-Tipe Variable\n\nTipe Integer : {tipeInteger}\nTipe Float : {tipeFloat}\nTipe Double : {tipeDouble}\nTipe String : {tipeString}\nTipe Boolean : {tipeBoolean}\nTipe Character : {tipeCharacter}\n\n[All Done]");
         }
     }
 }

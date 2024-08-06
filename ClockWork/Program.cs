@@ -14,7 +14,7 @@ namespace ClockWork
         double sec = double.Parse(Console.ReadLine());
         double min = sec / 60;
         double h = sec / 3600;
-            Console.WriteLine("\n{0} menit\n{1} jam", min,h);
+            Console.WriteLine($"\n{min} menit\n{h} jam");
         }
     }
 }

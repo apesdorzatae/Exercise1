@@ -15,7 +15,7 @@ namespace Lingkaran
             double r = double.Parse(Console.ReadLine());
             double luas = r * r * phi;
             double keliling = (r + r) * phi;
-            Console.WriteLine("\nHasilnya :\n\nLuas {0}\nKeliling {1}\n\n\nDah betul kok tipe datanya Mr :))", luas, keliling);
+            Console.WriteLine($"\nHasilnya :\n\nLuas {luas}\nKeliling {keliling}\n\n\nDah betul kok tipe datanya Mr :))");
         }
     }
 }
